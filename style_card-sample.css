@@ -1,0 +1,46 @@
+*{ box-sizing: border-box; }
+
+body
+{
+    font-family: segoe ui;
+    background-color: rgb(221, 218, 218);
+}
+
+.hauptContainer
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.container
+{
+    width: 250px;          
+    margin: 0 25px;            
+    border: 1px solid black;            
+    background-color: rgb(235, 234, 234);            
+}
+
+.blumen
+{
+    width: 100%;
+}
+
+.titel
+{
+    margin: 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.text
+{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+.texthaupt
+{
+    margin-left: 10px;
+}
