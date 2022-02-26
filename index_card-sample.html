@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Studies</title>
+
+    <style>
+        *{ box-sizing: border-box; }
+
+        body
+        {
+            font-family: segoe ui;
+            background-color: rgb(221, 218, 218);
+        }
+
+        .hauptContainer
+        {
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .container
+        {
+            width: 250px;          
+            margin: 0 25px;            
+            border: 1px solid black;            
+            background-color: rgb(235, 234, 234);            
+        }
+
+        .blumen
+        {
+            width: 100%;
+        }
+
+        .titel
+        {
+            margin: 0;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+
+        .text
+        {
+            font-size: 14px;
+            font-weight: lighter;
+            color: #666;
+            letter-spacing: 1px;
+        }
+
+        .texthaupt
+        {
+            margin-left: 10px;
+        }
+ </style>
+</head>
+<body>
+
+    <div class="hauptContainer">
+        <div class="container">
+            <img class="blumen" src="data:image/jpeg;base64,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">
+            
+            <div class="texthaupt">
+                <h2 class="titel">VERKAUF</h2>
+                <p class="text">
+                    Wir verkaufen Ihre Immobilien für Sie. Sie profitieren somit von Vorteilen einer Maklerbeauftragung.
+                </p>
+
+                <p>12.10.2021 <br> by Vorname Nachname </p>               
+            </div>
+
+        </div>
+    </div>   
+
+</body>
+</html>
